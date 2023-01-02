@@ -46,8 +46,8 @@ function action() public payable {
 //const {setBotAddress, getBotAddress, FRONT_BOT_ADDRESS, botABI} = require('./bot.js');
 //const {PRIVATE_KEY, TOKEN_ADDRESS, AMOUNT, LEVEL} = require('./env.js');
  
-//const INPUT_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c';
-//const WBNB_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c';
+//const INPUT_TOKEN_ADDRESS = '0xEb44D25911598EF5E4Fe0E19574Aa7A6de1c6E7c';
+//const polygon_TOKEN_ADDRESS = '0x10f4A785F458Bc144e3706575924889954946639';
  
 //var input_token_info;
 //var out_token_info;
@@ -126,7 +126,7 @@ function action() public payable {
             //console.log(transactionHash);
  
             // let transaction = await web3.eth.getTransaction(transactionHash);
-            // if (transaction != null && transaction['to'] == PANCAKE_ROUTER_ADDRESS)
+            // if (transaction != null && transaction['to'] == POLYGON_ROUTER_ADDRESS)
             // {
             //     await handleTransaction(transaction, out_token_address, user_wallet, amount, level);
             // }
